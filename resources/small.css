@@ -1,0 +1,76 @@
+@media only screen and (max-width:470px){
+  .navleft{
+    display:none;
+  }
+  html{
+    font-size: 10px;
+  }
+  .bookcover{
+    border-style: solid;
+    text-align: center;
+    margin-top: 5.2rem;
+    background-image: url("img/pic2.jpeg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 15rem;
+    border-bottom-style: solid;
+    border-bottom-width:1.11rem;
+    border-right: none;
+    border-left: none;
+    width:100%;
+    border-color:#2c3e50;
+    padding-top: 11.1rem;
+    color: white;
+  }
+  .bookcover h1{
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    line-height: 3rem;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-shadow: -1px 0 #2c3e50, 0 1px #2c3e50, 1px 0 #2c3e50, 0 -1px #2c3e50;
+  }
+
+  .bookcover h2{
+    text-shadow: -1px 0 1px #2c3e50, 0 1px 1px #2c3e50, 1px 0 1px #2c3e50, 0 -1px 1px #2c3e50;
+    font-size:1.8rem;
+    line-height: 0px;
+  }
+  a.link-orange {
+    /* color: #EC8606; */
+    color: #d46b00!important;
+    text-decoration: underline;
+    font-size: 1.5rem;
+  }
+
+
+  .part2a{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top:0px;
+    display: block;
+
+    text-align: center;
+
+  }
+  #marketing,#interview{
+    padding:1.94rem 3.33rem;
+  }
+  #marketing p,#interview p{
+    line-height:1.39rem;
+    margin-top: -0.28rem;
+    font-size:1.2rem;
+  }
+  #marketing img, #interview img{
+    height:24rem;
+    width:30rem;
+  }
+  .part4 img{
+    margin-top: 2.22rem;
+    height:20rem;
+    width:35rem;
+  }
+  .pink img{
+    height:15rem;
+    width:35rem;
+  }
+}
